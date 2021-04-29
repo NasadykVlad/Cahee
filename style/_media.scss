@@ -1,0 +1,342 @@
+@media (max-width: 629.98px) {
+    .head {
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        &__mouse {
+            height: 3%;
+            width: 3%;
+        }
+    }
+    .main {
+        width: 100%;
+        background-position: top;
+        background-size: 49%;
+        padding-top: 59%;
+        text-align: center;
+        &__text {
+            width: 80%;
+        }
+    }
+    .services {
+        width: 100%;
+        flex-direction: column-reverse;
+        &__left {
+            margin-top: 5%;
+            width: 66%;
+        }
+        & h1 {
+            text-align: center;
+        }
+    }
+    .gallery {
+        width: 100%;
+        & p {
+            max-width: 89%;
+            margin-bottom: 10%;
+        }
+    }
+    .subscribe {
+        background-size: inherit;
+        width: 100%;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-position: center;
+        & p {
+            width: 89%;
+            margin: 5% auto;
+        }
+        & form {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            margin: 0 auto;
+            & input {
+                width: 100%;
+                margin-bottom: 5%;
+            }
+        }
+    }
+    .blog {
+        width: 100%;
+        & p {
+            max-width: 90%;
+            margin-bottom: 7%;
+        }
+        &__article {
+            flex-wrap: wrap;
+            height: max-content;
+        }
+        .blocks {
+            width: 73%;
+            height: 33%;
+            margin: 0 auto;
+            margin-bottom: 5%;
+            &__date p {
+                text-align: center;
+            }
+        }
+        & button {
+            margin-top: 20%;
+        }
+    }
+    .contact {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        & p {
+            max-width: 90%;
+        }
+        &__form {
+            width: 100%;
+            margin-bottom: 8%;
+        }
+        &__data-form {
+            margin: 0 auto;
+            text-align: center;
+            & h5 {
+                color: white;
+            }
+            & p {
+                color: white;
+            }
+        }
+    }
+    .footer {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        & p {
+            width: 100%;
+            margin: 2% 0;
+        }
+    }
+}
+
+@media (min-width: 629px) and (max-width: 767.98px) {
+    .head {
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        &__mouse {
+            height: 4%;
+            width: 3%;
+        }
+    }
+    .main {
+        width: 100%;
+        background-position: top;
+        background-size: 49%;
+        padding-top: 59%;
+        text-align: center;
+        &__text {
+            width: 85%;
+        }
+    }
+    .services {
+        width: 100%;
+        flex-direction: column-reverse;
+        &__left {
+            margin-top: 5%;
+            width: 66%;
+        }
+        & h1 {
+            text-align: center;
+        }
+    }
+    .gallery {
+        width: 100%;
+        & p {
+            max-width: 89%;
+            margin-bottom: 10%;
+        }
+    }
+    .subscribe {
+        background-size: inherit;
+        width: 100%;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-position: center;
+        & p {
+            width: 89%;
+            margin: 5% auto;
+        }
+        & form {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            margin: 0 auto;
+            & input {
+                width: 77%;
+                margin-bottom: 5%;
+            }
+        }
+    }
+    .blog {
+        width: 100%;
+        & p {
+            max-width: 90%;
+            margin-bottom: 7%;
+        }
+        &__article {
+            flex-wrap: wrap;
+            height: max-content;
+        }
+        .blocks {
+            width: 73%;
+            height: 33%;
+            margin: 0 auto;
+            margin-bottom: 5%;
+            &__date p {
+                text-align: center;
+            }
+        }
+        & button {
+            margin-top: 20%;
+        }
+    }
+    .contact {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        & p {
+            max-width: 90%;
+        }
+        &__form {
+            width: 100%;
+            margin-bottom: 8%;
+        }
+        &__data-form {
+            margin: 0 auto;
+            text-align: center;
+            & h5 {
+                color: white;
+            }
+            & p {
+                color: white;
+            }
+        }
+    }
+    .footer {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .head {
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        &__mouse {
+            height: 4%;
+            width: 2%;
+        }
+    }
+    .main {
+        width: 100%;
+        background-position: top;
+        background-size: 49%;
+        padding-top: 59%;
+        text-align: center;
+        &__text {
+            width: 85%;
+        }
+    }
+    .services {
+        width: 100%;
+        flex-direction: column-reverse;
+        &__left {
+            margin-top: 5%;
+            width: 66%;
+        }
+        & h1 {
+            text-align: center;
+        }
+    }
+    .gallery {
+        width: 100%;
+        & p {
+            max-width: 89%;
+            margin-bottom: 10%;
+        }
+    }
+    .subscribe {
+        background-size: inherit;
+        width: 100%;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-position: center;
+        & p {
+            width: 89%;
+            margin: 5% auto;
+        }
+        & form {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            & input {
+                width: 43%;
+                margin-bottom: 5%;
+            }
+        }
+    }
+    .blog {
+        width: 100%;
+        & p {
+            max-width: 90%;
+            margin-bottom: 7%;
+        }
+        &__article {
+            flex-wrap: wrap;
+            height: max-content;
+        }
+        .blocks {
+            margin: 0 auto;
+            margin-bottom: 1%;
+            width: 320px;
+            height: auto;
+            &__date p {
+                text-align: center;
+            }
+        }
+        & button {
+            margin-top: 20%;
+        }
+    }
+    .contact {
+        width: 100%;
+    }
+    .footer {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .blog {
+        & p {
+            max-width: 90%;
+            margin-bottom: 7%;
+        }
+        &__article {
+            flex-wrap: wrap;
+            height: max-content;
+        }
+        .blocks {
+            margin: 0 auto;
+            margin-bottom: 1%;
+            width: 303px;
+            height: auto;
+            &__date p {
+                text-align: center;
+            }
+        }
+        & button {
+            margin-top: 20%;
+        }
+    }
+}

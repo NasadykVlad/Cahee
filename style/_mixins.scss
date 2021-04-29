@@ -1,0 +1,144 @@
+@mixin burger_link {
+    &__nav {
+        width: 100%;
+        z-index: 3;
+        margin-top: 1%;
+        & ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            overflow: hidden;
+        }
+        & li a {
+            display: block;
+            padding: 2px 10px;
+            border-right: 1px solid #f4f4f4;
+            text-decoration: none;
+            font-size: 16px;
+            line-height: 1.5;
+            font-weight: 700;
+            color: #262626;
+            text-transform: uppercase;
+            &:hover {
+                border-top: 2px solid red;
+            }
+        }
+    }
+    .head__nav .menu {
+        clear: both;
+        max-height: 0;
+        transition: max-height .2s ease-out;
+    }
+    .head__nav .menu-icon {
+        cursor: pointer;
+        display: block;
+        float: right;
+        padding: 28px 20px;
+        position: relative;
+        user-select: none;
+    }
+    .head__nav .menu-icon .navicon {
+        background: #333;
+        display: block;
+        height: 2px;
+        position: relative;
+        transition: background .2s ease-out;
+        width: 18px;
+    }
+    .head__nav .menu-icon .navicon:before,
+    .head__nav .menu-icon .navicon:after {
+        background: #333;
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        width: 100%;
+    }
+    .head__nav .menu-icon .navicon:before {
+        top: 5px;
+    }
+    .head__nav .menu-icon .navicon:after {
+        top: -5px;
+    }
+    /* menu btn */
+    .head__nav .menu-btn {
+        display: none;
+    }
+    .head__nav .menu-btn:checked~.menu {
+        max-height: 240px;
+    }
+    .head__nav .menu-btn:checked~.menu-icon .navicon {
+        background: transparent;
+    }
+    .head__nav .menu-btn:checked~.menu-icon .navicon:before {
+        transform: rotate(-45deg);
+    }
+    .head__nav .menu-btn:checked~.menu-icon .navicon:after {
+        transform: rotate(45deg);
+    }
+    .head__nav .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
+    .head__nav .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
+        top: 0;
+    }
+    @media (min-width: 900px) {
+        .head__nav li {
+            float: left;
+        }
+        .head__nav .menu {
+            clear: none;
+            float: right;
+            max-height: none;
+        }
+        .head__nav .menu-icon {
+            display: none;
+        }
+    }
+    &__main {
+        width: 100%;
+        margin-top: 13%;
+        & h1 {
+            font-size: 60px;
+            line-height: 1.6;
+            font-weight: 900;
+            color: #262626;
+        }
+        & p {
+            font-size: 17px;
+            line-height: 1.6;
+            font-weight: 300;
+            color: #262626;
+            margin-bottom: 2%;
+            max-width: 401px;
+        }
+        & a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: 55px;
+            background-color: #ff6033;
+            box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+            font-size: 20px;
+            line-height: 2.5;
+            font-weight: 300;
+            color: white;
+            text-decoration: none;
+            &:hover {
+                background-color: #a33900;
+                transition: .4s;
+            }
+        }
+    }
+    &__mouse {
+        width: 2%;
+        height: 6%;
+        margin: 2% auto;
+    }
+}
+
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
